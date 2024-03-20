@@ -6,8 +6,9 @@ public class Main41 {
 
         char a = scanner.nextLine().charAt(0);
         int str = a;
+        
 
-        System.out.println(a + 1);
+        System.out.println((char)(str + 1));
         
     }
 }

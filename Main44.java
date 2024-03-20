@@ -1,6 +1,12 @@
-public class Main1{
+import java.util.Scanner;
+
+public class Main44 {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        Scanner scanner = new Scanner(System.in);
+
+        long a = scanner.nextLong();
+
+        System.out.println(a + 1);
     }
     
 }
