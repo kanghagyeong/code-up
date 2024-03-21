@@ -6,9 +6,12 @@ public class Main64 {
 
         String a = scanner.nextLine();
         String[] num = a.split(" ");
+        int b = Integer.parseInt(num[0]);
+        int c = Integer.parseInt(num[1]);
+        int d = Integer.parseInt(num[2]);
 
-        int result = (((Integer.parseInt(num[0]) < Integer.parseInt(num[1])) ? Integer.parseInt(num[0]) : Integer.parseInt(num[1])) 
-                    > Integer.parseInt(num[2])) ? Integer.parseInt(num[2]) : ((Integer.parseInt(num[0]) < Integer.parseInt(num[1])) ? Integer.parseInt(num[0]) : Integer.parseInt(num[1])) ;
+
+        int result = ((b < c ? b : c)  > d) ? d: (b< c ? b : c);
 
 
         System.out.println(result);
