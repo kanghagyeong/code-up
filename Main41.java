@@ -7,8 +7,10 @@ public class Main41 {
         char a = scanner.nextLine().charAt(0);
         int str = a;
         
-
+        scanner.close();
         System.out.println((char)(str + 1));
+
+        
         
     }
 }

@@ -9,6 +9,8 @@ public class Main47 {
         long result = a * 2;
 
         System.out.println(result);
+        
+        scanner.close();
     }
     
 }

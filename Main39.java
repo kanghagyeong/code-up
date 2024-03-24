@@ -9,7 +9,10 @@ public class Main39 {
 
         Long result = Long.parseLong(temp[0]) + Long.parseLong(temp[1]);
 
+        scanner.close();
+
         System.out.println(result);
+
         
     }
 }

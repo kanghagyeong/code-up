@@ -17,7 +17,7 @@ public class Main25 {
 
         System.out.println("[" + a + "]\n" + "[" +  b + "]\n" + "[" + c +  "]\n" + "[" +  d + "]\n" + "[" +  e + "]\n");
 
-
+        scanner.close();
 
     }
 

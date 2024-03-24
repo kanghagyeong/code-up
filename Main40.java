@@ -6,7 +6,11 @@ public class Main40 {
 
         int a = scanner.nextInt();
 
+        scanner.close();
+        
         System.out.println(-a);
+
+        
         
     }
 }

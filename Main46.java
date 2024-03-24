@@ -13,6 +13,8 @@ public class Main46 {
         System.out.println(plus);
         
         System.out.printf("%.1f",average);
+
+        scanner.close();
     }
     
 }

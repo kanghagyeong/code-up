@@ -7,6 +7,8 @@ public class Main44 {
         long a = scanner.nextLong();
 
         System.out.println(a + 1);
+
+        scanner.close();
     }
     
 }

@@ -20,6 +20,9 @@ public class Main45 {
         System.out.println(division);
         System.out.println(remainder);
         System.out.printf("%.2f",rounding);
+
+        scanner.close();
+        
     }
     
 }
